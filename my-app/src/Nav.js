@@ -1,12 +1,14 @@
-return (
-    <nav style={{
-        display: inline-flex
-      }}>
-        <ul>
-            <li><a href="#main"></a></li>
-            <li><a href="#specials"></a></li>
-            <li><a href="#reviews"></a></li>
-            <li><a href="#about"></a></li>
-        </ul>
-    </nav>
-);
+export default function Nav() {
+    return (
+        <nav style={{
+            display: inline-flex
+        }}>
+            <ul>
+                <li><Link to="/">Home</Link></li>
+                <li><Link to="/">Home</Link></li>
+                <li><Link to="/">Home</Link></li>
+                <li><Link to="/">Home</Link></li>
+            </ul>
+        </nav>
+    );
+}
