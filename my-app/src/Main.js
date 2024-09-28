@@ -1,3 +1,7 @@
 return (
-    <main></main>
+    <main style={{
+        display: grid
+    }}>
+
+    </main>
 )

@@ -36,3 +36,73 @@
     transform: rotate(360deg);
   }
 }
+
+nav {
+  display: inline-flex;
+  justify-content: center;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  margin: auto;
+}
+
+main {
+  display: grid;
+}
+
+body {
+  display: grid;
+}
+
+footer {
+  display: inline-flex;
+}
+
+h1 {
+  font-family: ;
+  font-size: 64px;
+}
+
+h2 {
+  font-family: ;
+  font-size: 40px;
+}
+
+h3 {
+  font-family: ;
+  font-size: 20px;
+}
+
+h4 {
+  font-family: ;
+  font-size: 18px;
+}
+
+h5 {
+  font-family: ;
+  font-size: 18px;
+}
+
+h6 {
+  font-family: ;
+  font-size: 16px;
+}
+
+p {
+  font-family: ;
+  font-size: 16px;
+}
+
+span {
+  font-family: ;
+  font-size: 16px;
+}
+
+img {
+  
+}

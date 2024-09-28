@@ -1,5 +1,7 @@
 return (
-    <nav>
+    <nav style={{
+        display: inline-flex
+      }}>
         <ul>
             <li><a href="#main"></a></li>
             <li><a href="#specials"></a></li>
