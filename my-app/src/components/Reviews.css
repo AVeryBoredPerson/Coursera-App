@@ -1,0 +1,39 @@
+.section {
+    padding: 3rem 0;
+}
+
+.section h1 {
+    font-family: "Markazi Text", serif;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.reviews {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+
+.review {
+    padding: 1rem;
+    background-color: #EDEFEE;
+}
+
+.stars {
+    color: #F4CE14;
+    margin-bottom: 0.5rem;
+    font-size: 2rem;
+}
+
+.review img {
+    width: 64px;
+    height: 64px;
+    margin-right: 8px;
+}
+
+.review span {
+    font-family: "Karla", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}

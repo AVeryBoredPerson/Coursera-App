@@ -1,0 +1,23 @@
+.footer {
+    background-color: #495E57;
+    padding: 3rem;
+    color: #EDEFEE;
+}
+
+.section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 900px;
+    gap: 1rem;
+    margin: 0 auto;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer h2 {
+    font-family: "Karla", sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+}

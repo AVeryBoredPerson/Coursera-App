@@ -1,0 +1,41 @@
+.section {
+    margin-bottom: 3rem;
+}
+
+.top-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    align-items: center;
+}
+
+.top-row h1 {
+    font-family: "Markazi Text", serif;
+    font-size: 64px;
+    font-weight: 500;
+}
+
+.menu {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.item {
+    background: #EDEFEE;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.item img {
+    width: 100px;
+    height: 160px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.item span {
+    color: #EE9272;
+}
